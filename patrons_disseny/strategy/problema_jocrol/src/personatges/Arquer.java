@@ -8,7 +8,8 @@ public class Arquer extends Personatge {
 
     @Override
     public void atacar() {
-        System.out.println(nom + " dispara una fletxa.");
+        atacComportament = new AtacFletxa();
+        atacComportament.atacar(nom);
     }
 
     @Override

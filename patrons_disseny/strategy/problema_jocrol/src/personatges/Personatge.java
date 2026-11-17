@@ -4,6 +4,7 @@ public abstract class Personatge {
 
     protected String nom;
     protected String tipus;
+    protected AtacComportament atacComportament;
 
     protected int nivell;
     protected int morts;

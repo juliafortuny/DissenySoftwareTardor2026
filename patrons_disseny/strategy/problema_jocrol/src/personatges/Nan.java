@@ -8,7 +8,8 @@ public class Nan extends Personatge {
 
     @Override
     public void atacar() {
-        System.out.println(nom + " ataca amb una espasa.");
+        atacComportament = new AtacEspasa();
+        atacComportament.atacar(nom);
     }
 
     @Override

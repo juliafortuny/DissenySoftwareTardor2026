@@ -14,6 +14,7 @@ public class Main {
         guerrer.atacar();
         arquer.defensar();
         mag.atacar();
+        arquer.atacar();
 
         System.out.println("\n--- El Mag puja de nivell fins 20 ---");
         mag.pujarNivell(19); // ara és nivell 1+19=20
