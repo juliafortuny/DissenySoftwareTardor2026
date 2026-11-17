@@ -1,0 +1,60 @@
+@startuml
+top to bottom direction
+
+abstract class Personatge {
+  # nom: String
+  # tipus: String
+  # nivell: int
+  # morts: int
+  + {abstract} atacar(): void
+  + {abstract} defensar(): void
+  + descansar(): void
+  + mostrarEstadistiques(): void
+  + menjar(): void
+  + pujarNivell(int): void
+  + morir(): void
+}
+
+class Arquer {
+  + atacar(): void
+  + defensar(): void
+}
+
+class Elf {
+  + atacar(): void
+  + defensar(): void
+}
+
+class Guerrer {
+  + atacar(): void
+  + defensar(): void
+}
+
+class Huma {
+  + atacar(): void
+  + defensar(): void
+}
+
+class Nan {
+  + atacar(): void
+  + defensar(): void
+}
+
+class Mag {
+  + atacar(): void
+  + defensar(): void
+}
+
+class Main {
+  + main(String[]): void
+}
+
+Arquer      -[#000000,plain]up-^  Personatge
+Elf         -[#000000,plain]up-^  Personatge
+Guerrer     -[#000000,plain]up-^  Personatge
+Huma        -[#000000,plain]up-^  Personatge
+Mag         -[#000000,plain]up-^  Personatge
+Nan         -[#000000,plain]up-^  Personatge
+Main        --> Personatge: uses
+
+@enduml

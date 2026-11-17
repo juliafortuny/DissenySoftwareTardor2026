@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/patrons_disseny/facade/example_facade/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/patrons_disseny/strategy/problema_anecs/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/patrons_disseny/strategy/problema_vols/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/patrons_disseny/strategy/problema_jocrol/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
